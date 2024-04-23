@@ -1,0 +1,37 @@
+.answer-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    p {
+        background-color: #fff;
+        padding: 10px 20px;
+        border: 3px solid #fff;
+        border-radius: 50px;
+        box-shadow: 0px 4px 10px #cecece;
+        width: 500px;
+        max-width: 90%;
+        min-height: 50px;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        &.selected {
+            border: 3px solid var(--secondary);
+        }
+        
+        &.correct {
+            background-color: var(--correct-lighter);
+            border: 3px solid var(--correct-lighter);
+        }
+
+        
+        
+    }
+
+
+}
